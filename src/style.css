@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:ital,wght@0,300;0,600;0,700;1,200&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background: #F55A5A;
+    height: 55px;
+    gap: 7px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.logo{
+    color: #FFFFFF;
+    width: 24px;
+    height: 24px;
+}
+
+.header-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    width: 109px;
+    height: 16px;
+    color: #FFFFFF;
+}
+
+.cards{
+    padding: 100px 150px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -280px;
+    
+}
+
+.card{
+    border-radius: 5px;
+    width: 125px;
+    height: 168px;
+    object-fit: cover;
+}
+
+.location{
+    display:flex;
+    align-items: center;
+    height:100px;
+    margin:-195px 130px;
+    width: 230px;
+}
+
+.mountain{
+    margin:135px 145px;
+    
+}
+
+.marker{
+    color: #F55A5A;
+    height: 30px;
+    font-weight:500;
+    width: 40px;
+}
+
+.country{
+    flex:1;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    width: 70px;
+    height: 10px;
+    color: #2B283A;
+}
+
+.link{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    color: #918E9B;
+    height: 13px;
+    width: 150px;
+    margin-left:7px;
+}
+
+.mountain-header{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+    width: 326px;
+    height: 40px;
+    margin-top:27px;
+    margin-bottom:-10px;
+}
+
+.start-date{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    width: 319px;
+    height: 11px;
+    color: #2B283A;
+}
+
+.description{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    width: 326px;
+    height: 45px;
+    color: #2B283A;
+}
+
+.main{
+    padding:10px;
+    margin-left: 120px;
+    margin-top:40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 20);
+    width:800px;
+    height:850px;
+    border-radius: 9px;
+}
